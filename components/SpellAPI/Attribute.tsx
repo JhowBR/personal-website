@@ -4,7 +4,7 @@ interface AttributeProps {
     description: string
 }
 
-export default function(props: AttributeProps) {
+export default function Attribute(props: AttributeProps) {
     return (
         <div>
             <div style={{fontSize: '20px'}}>

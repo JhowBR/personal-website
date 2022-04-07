@@ -3,7 +3,7 @@ import Method from "../../components/SpellAPI/Method";
 import SpellApiSidebar from "../../components/SpellAPI/SpellApiSidebar";
 import styles from '../../styles/SpellApiDocs.module.css'
 
-export default function() {
+export default function SpellUser() {
     return (
         <div style={{display:'flex', flexDirection:"row"}}>
             <SpellApiSidebar collapse={1}></SpellApiSidebar>

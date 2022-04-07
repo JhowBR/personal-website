@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import Card from '../components/Card'
 import styles from '../styles/Home.module.css'
 
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
                 Here you'll see my development skills and portfolio.
                 <br />
                 <br />
-                I'm a musician also, check out my music projects <a className={styles.a} href="music">clicking here</a>!
+                I'm a musician also, check out my music projects <Link href='music'><a className={styles.a}>clicking here</a></Link>!
               </p>
             </section>
             
@@ -85,13 +86,13 @@ const Home: NextPage = () => {
           Email jonathanribeirogalli@hotmail.com
         </span>
         <span>
-          Instagram <a href="https://instagram.com/jonathanribeirogalli">@jonathanribeirogalli</a>
+          Instagram <Link href="https://instagram.com/jonathanribeirogalli"><a>@jonathanribeirogalli</a></Link>
         </span>
         <span>
-          LinkedIn <a href="https://www.linkedin.com/in/jonathan-galli/">Jonathan Galli</a>
+          LinkedIn <Link href="https://www.linkedin.com/in/jonathan-galli/"><a>Jonathan Galli</a></Link>
         </span>
         <span>
-          GitHub <a href="https://github.com/JhowBR">@JhowBR</a>
+          GitHub <Link href="https://github.com/JhowBR"><a>@JhowBR</a></Link>
         </span>
         <span>
           Phone +55 (45) 98835-9119

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/Card.module.css'
 
 interface CardProps {
@@ -8,10 +9,12 @@ interface CardProps {
 
 export default function Card(props: CardProps) {
     if (props.href) return (
-        <a className={styles.card} href={props.href}>
-            <h4>{props.name}</h4>
-            <p>{props.description}</p>
-        </a>
+        <Link href={props.href}>
+            <a className={styles.card}>
+                <h4>{props.name}</h4>
+                <p>{props.description}</p>
+            </a>
+        </Link>
     )
     else return (
         <div className={styles.card}>

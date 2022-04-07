@@ -5,7 +5,7 @@ interface MethodProps {
     description: string
 }
 
-export default function(props: MethodProps) {
+export default function Method(props: MethodProps) {
     return (
         <div>
             <div style={{fontSize: '20px'}}>
