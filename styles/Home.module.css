@@ -123,6 +123,8 @@
 @media (max-width: 800px) {
   .main {
     width: 95%;
+    padding-right: 8px;
+    padding-left: 8px;
   }
 
   .profilePicture {
@@ -145,7 +147,7 @@
 
 
 .portfolio {
-  background-color: #dadada;
+  background-color: #eeeeee;
   color: rgb(17, 17, 17);
   width: 100%;
   min-height: 20vh;
