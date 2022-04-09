@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Card from '../components/Card'
 import styles from '../styles/Home.module.css'
+import { BsInstagram as INSTAGRAM_ICON, BsGithub as GITHUB_ICON, BsWhatsapp as WHATSAPP_ICON} from 'react-icons/bs'
+import { AiOutlineMail as EMAIL_ICON, } from 'react-icons/ai'
+import { FaLinkedinIn as LINKEDIN_ICON } from 'react-icons/fa'
 
 const Home: NextPage = () => {
   return (
@@ -28,7 +31,7 @@ const Home: NextPage = () => {
               <p className={styles.description}>
                 Hi, I'm a full-stack developer, graduated in IT!
                 <br />
-                Here you'll see my development skills and portfolio.
+                Here you'll see my development skills and <Link href={'#portfolio'}><a>portfolio</a></Link>.
                 <br />
                 <br />
                 I'm a musician also, check out my music projects <Link href='music'><a className={styles.a}>clicking here</a></Link>!
@@ -43,6 +46,8 @@ const Home: NextPage = () => {
               <span style={{fontStyle:"italic"}}>I'm passionate about learning, making friends and beating challenges.</span>
               <br />
               I already was the project manager of some projects and this was how I learned working in a team and leadership.
+              <br />
+              <Link href={'#footer'}><a>Contact me</a></Link>
             </p>
             
           </main>
@@ -59,7 +64,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className={styles.portfolio}>
+      <div className={styles.portfolio} id='portfolio'>
         <h1>Portfolio</h1>
           <div className={styles.grid}>
             <Card href='/' name='Personal Website' description="This website, made with NextJS and React" />
@@ -81,22 +86,12 @@ const Home: NextPage = () => {
         </ul>
       </div>
 
-      <footer className={styles.footer}>
-        <span>
-          Email jonathanribeirogalli@hotmail.com
-        </span>
-        <span>
-          Instagram <Link href="https://instagram.com/jonathanribeirogalli"><a>@jonathanribeirogalli</a></Link>
-        </span>
-        <span>
-          LinkedIn <Link href="https://www.linkedin.com/in/jonathan-galli/"><a>Jonathan Galli</a></Link>
-        </span>
-        <span>
-          GitHub <Link href="https://github.com/JhowBR"><a>@JhowBR</a></Link>
-        </span>
-        <span>
-          Phone +55 (45) 98835-9119
-        </span>
+      <footer className={styles.footer} id='footer'>
+        <span><EMAIL_ICON /> jonathanribeirogalli@hotmail.com</span>
+        <span><WHATSAPP_ICON /> +55 (45) 98835-9119</span>
+        <span><INSTAGRAM_ICON /> <Link href="https://instagram.com/jonathanribeirogalli"><a> @jonathanribeirogalli</a></Link></span>
+        <span><LINKEDIN_ICON /> <Link href="https://www.linkedin.com/in/jonathan-galli/"><a> Jonathan Galli</a></Link></span>
+        <span><GITHUB_ICON /> <Link href="https://github.com/JhowBR"><a> @JhowBR</a></Link></span>
       </footer>
     </div>
   )
