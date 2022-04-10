@@ -10,13 +10,12 @@ export default function Music() {
             <meta name="description" content="The Jonathan Galli's music portfolio website." />
             <meta name="author" content="Jonathan Galli" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <div className="container">
-            <div>Soon...</div>
+            <h1>Page under construction...</h1>
             <Link href="/">
-                <a>Back</a>
+                <a>Return to Jonathan Galli</a>
             </Link>
         </div>
         </div>

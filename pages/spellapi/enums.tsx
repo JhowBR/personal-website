@@ -1,17 +1,24 @@
+import Head from "next/head";
 import Attribute from "../../components/SpellAPI/Attribute";
 import Method from "../../components/SpellAPI/Method";
 import SpellApiSidebar from "../../components/SpellAPI/SpellApiSidebar";
 import styles from '../../styles/SpellApiDocs.module.css'
 
 export default function Enums() {
+    const ENUMS_DESCRIPTION = "This enums are used internally in the API and in some spell methods. They're contained statically inside the Spell class."
+
     return (
         <div style={{display:'flex', flexDirection:"row"}}>
+            <Head>
+                <title>Enums - SpellAPI</title>
+                <meta name="description" content={ENUMS_DESCRIPTION} />
+                <meta name="keywords" content="enum, enums, spellapi, spell, system, api, unity, game, super, power, c#, module, package" />
+            </Head>
             <SpellApiSidebar collapse={1}></SpellApiSidebar>
 
             <div className={styles.container}>
                 <h1>Enums</h1>
-                <p>This enums are used internally in the API and in some spell methods.
-                    They're contained statically inside the Spell class.</p>
+                <p>{ENUMS_DESCRIPTION}</p>
 
                 <div className={styles.line} />
 

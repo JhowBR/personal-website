@@ -1,11 +1,16 @@
+import Head from 'next/head'
 import SpellApiSidebar from '../../components/SpellAPI/SpellApiSidebar'
 import styles from '../../styles/SpellApiDocs.module.css'
 
 export default function SpellAPI() {
     return (
         <div style={{display:'flex', flexDirection:"row"}}>
+            <Head>
+                <title>SpellAPI - Introduction</title>
+                <meta name="description" content="Looking for some API to make spells in your game? SpellAPI is the perfect system to handle all the logic of spells!" />
+                <meta name="keywords" content="spellapi, spell, system, api, unity, game, super, power, c#, module, package" />
+            </Head>
             <SpellApiSidebar collapse={0}></SpellApiSidebar>
-
             <div className={styles.container}>
                 <h4 style={{color: "yellow"}}>***Page under construction!*** Available for download soon...</h4>
 
