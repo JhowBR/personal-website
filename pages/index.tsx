@@ -40,12 +40,18 @@ const Home: NextPage = () => {
             
             <h2>About me</h2>
             <p className={styles.description}>
+              <span style={{
+                fontStyle:"italic",
+                fontSize:'26px',
+                color:"darkgoldenrod",
+              }}>"I'm passionate about learning, making friends and beating challenges..."</span>
+              <br />
+              <br />
               Since 2019, I started studying and realized a passion about learning programmation. As I don't like to waste time,
               I became a fast learner and self-taught.
               <br />
-              <span style={{fontStyle:"italic"}}>I'm passionate about learning, making friends and beating challenges.</span>
-              <br />
               I already was the project manager of some projects and this was how I learned working in a team and leadership.
+              <br />
               <br />
               <Link href={'#footer'}><a>Contact me</a></Link>
             </p>
@@ -89,9 +95,9 @@ const Home: NextPage = () => {
       <footer className={styles.footer} id='footer'>
         <span><EMAIL_ICON /> jonathanribeirogalli@hotmail.com</span>
         <span><WHATSAPP_ICON /> +55 (45) 98835-9119</span>
-        <span><INSTAGRAM_ICON /> <Link href="https://instagram.com/jonathanribeirogalli"><a> @jonathanribeirogalli</a></Link></span>
-        <span><LINKEDIN_ICON /> <Link href="https://www.linkedin.com/in/jonathan-galli/"><a> Jonathan Galli</a></Link></span>
-        <span><GITHUB_ICON /> <Link href="https://github.com/JhowBR"><a> @JhowBR</a></Link></span>
+        <span><INSTAGRAM_ICON /> <Link href="https://instagram.com/jonathanribeirogalli"><a target='_blank'> jonathanribeirogalli</a></Link></span>
+        <span><LINKEDIN_ICON /> <Link href="https://www.linkedin.com/in/jonathan-galli/"><a target='_blank'> Jonathan Galli</a></Link></span>
+        <span><GITHUB_ICON /> <Link href="https://github.com/JhowBR"><a target='_blank'> JhowBR</a></Link></span>
       </footer>
     </div>
   )
