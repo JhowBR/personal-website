@@ -7,16 +7,16 @@ export default function SpellAPI() {
             <SpellApiSidebar collapse={0}></SpellApiSidebar>
 
             <div className={styles.container}>
-                <h4 style={{color: "yellow"}}>***Page under construction!***</h4>
+                <h4 style={{color: "yellow"}}>***Page under construction!*** Available for download soon...</h4>
 
                 <h1>What is SpellAPI?</h1>
-                <p>SpellAPI is an Unity API that handle all the logic for the creation of spells in games.  
+                <p>SpellAPI is a Unity API that handle all the logic for the creation of spells in games.  
                     Spells are stateful objects that have it own lifecycle,
                     providing events called by different commands the user send to it.  
                     It can be used generally for all the spells inside MOBA or RPG game styles,
                     but it can be also used for any thing that have cooldown.</p>
-                <h2 id='1'>Getting Started</h2>
-                <h2 id='2'>Basic Usage</h2>
+                <h1 id='1'>Getting Started</h1>
+                <h1 id='2'>Basic Usage</h1>
             </div>
         </div>
     )
