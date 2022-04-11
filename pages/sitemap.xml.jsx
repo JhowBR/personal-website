@@ -1,5 +1,5 @@
-import React from "react";
-import * as fs from "fs";
+//import React from "react";
+//import * as fs from "fs";
 
 const Sitemap = () => {
   return null;
