@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                 Here you'll see my development skills and <Link href={'#portfolio'}><a>portfolio</a></Link>.
                 <br />
                 <br />
-                I'm a musician also, check out my music projects <Link href='music'><a className={styles.a}>clicking here</a></Link>!
+                I'm a musician also, check out my music projects <Link href='music'><a>clicking here</a></Link>!
               </p>
             </section>
             
