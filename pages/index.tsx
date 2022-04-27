@@ -68,7 +68,7 @@ const Home: NextPage = () => {
             <div className={styles.grid}>
               <Card name="Web" description="NextJS, React, Node, JavaScript, TypeScript" />
               <Card name="Mobile" description="Android Studio, Java" />
-              <Card name="Python" description="Pandas, Numpy, Docx, Tkinter, Pillow, Pyautogui, Pynput, etc" />
+              <Card name="Python" description="Pandas, Numpy, Matplotlib, Seaborn, Docx, Tkinter, Pillow, Pyautogui, Pynput, etc" />
               <Card name="Games" description="Unity, C#" />
             </div>
           </div>
