@@ -35,10 +35,10 @@ const Home: NextPage = () => {
               <p className={styles.description}>
                 Hi, I'm a full-stack developer graduated in IT!
                 <br />
-                Here you'll see my development skills and <Link href={'#portfolio'}><a>portfolio</a></Link>.
+                Here you are going to see my development skills and <Link href={'#portfolio'}><a>portfolio</a></Link>.
                 <br />
                 <br />
-                I'm a musician also, check out my music projects <Link href='music'><a>clicking here</a></Link>!
+                I am also a musician, check out my music projects <Link href='music'><a>clicking here</a></Link>!
               </p>
             </section>
             
@@ -48,13 +48,14 @@ const Home: NextPage = () => {
                 fontStyle:"italic",
                 fontSize:'26px',
                 color:"darkgoldenrod",
-              }}>"I'm passionate about learning, making friends and beating challenges..."</span>
+              }}>"I'm passionate about learning and beating challenges..."</span>
               <br />
               <br />
-              Since 2019, I started studying and realized a great love for the lifestyle of learning to develop and program.
-              As I don't like wasting time, I became a fast learner and self-taught.
+              Since 2019, I've been studying developments and programming which became my focus and passion.
+              In addition to that I became a fast learner and self-taught.
               <br />
-              I've been a project manager for some small projects and that's how I learned how to work in a team and be a good leader.
+              As a result I've been a project manager for some small projects with a team,
+              for this reason I acquired skills about how to work in a group such as being a good leader.
               <br />
               <br />
               <Link href={'#footer'}><a>Contact me</a></Link>
