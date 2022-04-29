@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import styles from '../styles/Home.module.css'
 import { BsInstagram as INSTAGRAM_ICON, BsGithub as GITHUB_ICON, BsWhatsapp as WHATSAPP_ICON} from 'react-icons/bs'
 import { AiOutlineMail as EMAIL_ICON, } from 'react-icons/ai'
-import { FaLinkedinIn as LINKEDIN_ICON } from 'react-icons/fa'
+import { FaLinkedinIn as LINKEDIN_ICON, FaDiscord as DISCORD_ICON } from 'react-icons/fa'
 
 const Home: NextPage = () => {
   return (
@@ -102,6 +102,7 @@ const Home: NextPage = () => {
         <span><INSTAGRAM_ICON /> <Link href="https://instagram.com/jonathanribeirogalli"><a target='_blank'> jonathanribeirogalli</a></Link></span>
         <span><LINKEDIN_ICON /> <Link href="https://www.linkedin.com/in/jonathan-galli/"><a target='_blank'> Jonathan Galli</a></Link></span>
         <span><GITHUB_ICON /> <Link href="https://github.com/JhowBR"><a target='_blank'> JhowBR</a></Link></span>
+        <span><DISCORD_ICON /> <Link href="https://discordapp.com/users/JhowBR#2177"><a target='_blank'> JhowBR#2177</a></Link></span>
       </footer>
     </div>
   )
