@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 
             <section>
               <p className={styles.description}>
-                Hi, I'm a full-stack developer graduating in IT!
+                Hi, I'm a full-stack developer graduated in IT!
                 <br />
                 Here you are going to see my development skills and <Link href={'#portfolio'}><a>portfolio</a></Link>.
                 <br />
