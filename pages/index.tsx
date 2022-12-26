@@ -80,6 +80,7 @@ const Home: NextPage = () => {
           <div className={styles.grid}>
             <Card href='/' name='Personal Website' description="This website, made with NextJS and React" />
             <Card href='spellapi' name='SpellAPI' description="A Unity's API for creation of spells in games" />
+            <Card href='https://linear-regression.streamlit.app/' name='Linear Regression App' description="An app that presents data from the vega-datasets lib in charts and calculates linear regressions" />
           </div>
       </div>
 
