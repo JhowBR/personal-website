@@ -81,6 +81,7 @@ const Home: NextPage = () => {
             <Card href='/' name='Personal Website' description="This website, made with NextJS and React" />
             <Card href='spellapi' name='SpellAPI' description="A Unity's API for creation of spells in games" />
             <Card href='https://linear-regression.streamlit.app/' name='Linear Regression App' description="A Streamlit Data Visualization app that presents data from the vega-datasets lib in charts and calculates linear regressions" />
+            <Card href='https://simply-weather-viewer.vercel.app/' name='Weather Viewer' description="A website made in React that consumes the API of the OpenWeatherMap platform to present data" />
           </div>
       </div>
 
